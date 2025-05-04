@@ -1,7 +1,7 @@
 import paramiko
 import stat
 import os
-from filter import FileFilter
+from .filter import FileFilter
 
 def collect_from_ssh(ssh_address, remote_path, password=None, file_filter=None):
     """

@@ -1,9 +1,9 @@
 import argparse
-from core import collect_from_directory
-from git_handler import collect_from_git
-from ssh_handler import collect_from_ssh
-from filter import FileFilter
-from clipboard import copy_to_clipboard
+from .core import collect_from_directory
+from .git_handler import collect_from_git
+from .ssh_handler import collect_from_ssh
+from .filter import FileFilter
+from .clipboard import copy_to_clipboard
 
 def main():
     parser = argparse.ArgumentParser(

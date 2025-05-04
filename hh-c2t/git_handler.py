@@ -2,8 +2,8 @@ import os
 import subprocess
 import tempfile
 import shutil
-from core import collect_from_directory
-from filter import FileFilter
+from .core import collect_from_directory
+from .filter import FileFilter
 
 def collect_from_git(git_url, file_filter):
     """

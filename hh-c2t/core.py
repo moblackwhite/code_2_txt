@@ -1,5 +1,5 @@
 import os
-from filter import FileFilter
+from .filter import FileFilter
 
 def collect_from_directory(root_dir, file_filter):
     """

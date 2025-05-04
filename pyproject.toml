@@ -1,6 +1,6 @@
 [project]
 name = "hh-c2t"
-version = "0.1.0"
+version = "0.1.1"
 description = "A tool to collect and format file contents from local directories, Git repositories, or SSH servers."
 readme = "README.md"
 requires-python = ">=3.9"
